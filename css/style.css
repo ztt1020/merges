@@ -6,6 +6,7 @@
 html,body,.wrap{
 	width: 100%;
 	height: 100%;
+	font-size: 18px;
 }
 .wrap{
 	display: flex;
@@ -15,6 +16,18 @@ header,footer{
 	height: 42px;
 	width: 100%;
 }
+header{
+	background: black;
+}
+header>ul{
+		display:flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+header>ul>li{
+		padding: 0 20px;
+		color:white;
+	}
 section{
 	flex: 1;
 }
