@@ -1,10 +1,30 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8" />
-	<title>Document</title>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
+    <title>Document</title>
+    <script>
+        document.documentElement.style.fontSize = window.innerWidth / 750 * 100 + "px";
+    </script>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-	
+    <section class="section">
+        <div class="content">
+            <p><label for="username">真实姓名</label><input id="username" type="text" placeholder="请填写您本人的真实姓名"></p>
+            <p><label for="shenfen">身份证号</label><input id="shenfen" type="text" placeholder="请填写本人身份证号"></p>
+            <p><label for="kahao">社保卡号</label><input id="kahao" type="text" placeholder="社保卡条形码下方的12位编号"></p>
+            <p><label for="mobail">手机号码</label><input id="mobail" type="text" placeholder="请填写本人手机号"></p>
+            <p><label for="xueli">最高学历</label><input id="xueli" type="text" placeholder="请选择"></p>
+            <p><label for="yuexin">税后月薪</label><input id="yuexin" type="text" placeholder="请选择"></p>
+            <p><label for="danwei">单位全称</label><input id="danwei" type="text" placeholder="请填写工作单位名称"></p>
+            <p><label for="zuoji">单位座机</label><input id="zuoji" type="text" placeholder="请填写工作单位座机号"></p>
+        </div>
+    </section>
 </body>
+
 </html>
